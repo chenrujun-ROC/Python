@@ -30,12 +30,19 @@ print(data)
 # 平均數 0,標準差 5, 得到的資料多數在 -5-5 之間
 data=random.normalvariate(0,5)
 print(data)
+
 # 統計模組
 # 平均數
 import statistics as stat
-data=stat.mean([1,4,5,8])
+data=stat.mean([1,2,3,4,5,8,10])
 print(data)
+
 # 中位數
 import statistics as stat
-data=stat.mean([1,4,5,8])
+data=stat.median([1,2,3,4,5,8,10])
+print(data)
+
+# 標準差
+import statistics as stat
+data=stat.stdev([1,2,3,4,5,8,10])
 print(data)
