@@ -18,8 +18,8 @@ print("最小值", data.min())
 print("總和", data.sum())
 print("標準差", data.std())
 print("中位數", data.median())
-print("最大的三個數\n", data.nlargest(3))
-print("最小的三個數\n", data.nsmallest(3))
+print("最大的三個數", data.nlargest(3),sep="\n")
+print("最小的三個數", data.nsmallest(3),sep="\n")
 
 data=pd.Series(["您好", "Python", "Pandas"])
 # 
