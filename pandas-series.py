@@ -29,4 +29,4 @@ print(data.str.upper())                 #全部變大寫 (中文不受影響)
 print(data.str.len())                   #算出每個字串的長度
 print(data.str.cat(sep="/"))            #把字串串接起來, 可以自訂串接的符號
 print(data.str.contains("P"))           #判斷每個字串是否包含特定的字元
-print(data.str.replace("您好", "Hello"))#重新定義字串   #
+print(data.str.replace("您好", "Hello"))#重新定義字串   
