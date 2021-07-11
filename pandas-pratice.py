@@ -3,10 +3,10 @@ import pandas as pd
 # 建立 Series
 data=pd.Series([20,10,15])
 # 基本 Series 操作
-# print("Max",data.max())
-# print("Median",data.median())
-# data=data*2
-# print(data)
+print("Max",data.max())
+print("Median",data.median())
+data=data*2
+print(data)
 data=data==20
 print(data)
 
