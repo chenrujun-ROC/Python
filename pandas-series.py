@@ -22,6 +22,7 @@ print("最大的三個數\n", data.nlargest(3))
 print("最小的三個數\n", data.nsmallest(3))
 
 data=pd.Series(["您好", "Python", "Pandas"])
+# 
 # 字串運算: 基本, 串接, 搜尋, 取代
 print(data.str.lower())                 #全部變小寫 (中文不受影響)
 print(data.str.upper())                 #全部變大寫 (中文不受影響)
