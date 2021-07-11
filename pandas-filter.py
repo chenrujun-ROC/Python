@@ -20,8 +20,13 @@ data=pd.DataFrame({
     "name":["Amy", "bob", "charles"],
     "salary":[30000, 50000, 40000]
 })
-print(data)
-print("===================")
+# print(data)
 condition=data["salary"]>=40000
+print(condition)
+filteredData=data[condition]
+print(filteredData)
+
+condition=data["name"]=="Amy"
+print(condition)
 filteredData=data[condition]
 print(filteredData)
